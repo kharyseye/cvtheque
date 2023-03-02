@@ -1,6 +1,7 @@
 package presentation;
 
 import java.sql.Connection;
+import java.util.List;
 import java.util.Scanner;
 
 import metier.Postulant;
@@ -75,6 +76,13 @@ public class Main {
 		 * System.out.println("Postulant supprimé!");
 		 */
 		 
+//AFFICHER UNE LISTE
+		
+		/*
+		 * System.out.println("lister les CV"); List<Postulant> postulant =
+		 * p.listPostulant(); for(Postulant po : postulant) {
+		 * System.out.println(po.toString()); }
+		 */
 }
 
 }

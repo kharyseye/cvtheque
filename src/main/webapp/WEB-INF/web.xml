@@ -9,4 +9,14 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>PostulantControleur</display-name>
+    <servlet-name>PostulantControleur</servlet-name>
+    <servlet-class>web.PostulantControleur</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PostulantControleur</servlet-name>
+    <url-pattern>/PostulantControleur</url-pattern>
+  </servlet-mapping>
 </web-app>
