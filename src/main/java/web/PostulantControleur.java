@@ -9,7 +9,6 @@ import metier.IPostulant;
 import metier.Postulant;
 import metier.PostulantImpl;
 
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -44,8 +43,14 @@ public class PostulantControleur extends HttpServlet {
 			int id = Integer.parseInt(request.getParameter("id"));
 			metier.delete(id);
 			response.sendRedirect("visualisercv.php");
-	}
+			
+	}else if(path.equals("/editer.php")) {
+		int id = Integer.parseInt(request.getParameter("id"));
+		Postulant p = metier.getPostulant(id);
+		request.setAttribute("postulant", p);
+		request.getRequestDispatcher("edit.jsp").forward(request, response);
 }
+	}
 
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -64,8 +69,25 @@ public class PostulantControleur extends HttpServlet {
 			Postulant p = metier.addPostulant(new Postulant(nom, prenom, age, adresse, email, telephone, specialite, niveau, experience));
 			request.setAttribute("postulant", p);
 			request.getRequestDispatcher("confirmation.jsp").forward(request, response);
-
-
+			
+		}else if(path.equals("/update.php")) {
+			int id = Integer.parseInt(request.getParameter("id"));
+			String nom = request.getParameter("nom");
+			String prenom = request.getParameter("prenom");
+			int age = Integer.parseInt(request.getParameter("age"));
+			String adresse = request.getParameter("adresse");
+			String email = request.getParameter("email");
+			String telephone = request.getParameter("telephone");
+			String specialite = request.getParameter("specialite");
+			String niveau = request.getParameter("niveau");
+			String experience = request.getParameter("experience");
+			
+			Postulant p = new Postulant(nom, prenom, age, adresse, email, telephone, specialite, niveau, experience);
+			p.setId(id);
+			metier.updatePostulant(p);
+			request.setAttribute("postulant", p);
+			request.getRequestDispatcher("confirmation.jsp").forward(request, response);
+			
 		}
 	}
 

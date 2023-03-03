@@ -129,7 +129,7 @@
            	 		</div>
            	 		<div class="col-3">
 	           	 		<div class="card">
-						  <img src="icone/travail1.jpg" class="card-img-top" alt="...">
+						  <img src="icone/travail2.jpg" class="card-img-top" alt="...">
 						  <div class="card-body">
 						    <h5 class="card-title">Caissiére</h5>
 						    <p class="card-text">02.10.2022 CASINO</p>
@@ -151,7 +151,7 @@
            	 		</div>
            	 		<div class="col-3">
 	           	 		<div class="card">
-						  <img src="icone/travail1.jpg" class="card-img-top" alt="...">
+						  <img src="icone/travail2.jpg" class="card-img-top" alt="...">
 						  <div class="card-body">
 						    <h5 class="card-title">Logisticien</h5>
 						    <p class="card-text">06.01.2023 ELLIPSE</p>
@@ -166,7 +166,7 @@
            	 	<div class="row">
            	 		<div class="col-3">
 	           	 		<div class="card">
-						  <img src="icone/travail1.jpg" class="card-img-top" alt="...">
+						  <img src="icone/travail3.jpg" class="card-img-top" alt="...">
 						  <div class="card-body">
 						    <h5 class="card-title">Secretaire</h5>
 						    <p class="card-text">02.10.2022 MAJOREL</p>
@@ -177,7 +177,7 @@
            	 		</div>
            	 		<div class="col-3">
 	           	 		<div class="card">
-						  <img src="icone/travail1.jpg" class="card-img-top" alt="...">
+						  <img src="icone/travail4.jpg" class="card-img-top" alt="...">
 						  <div class="card-body">
 						    <h5 class="card-title">télévendeur</h5>
 						    <p class="card-text">02.10.2022 MAJOREL</p>
@@ -188,7 +188,7 @@
            	 		</div>
            	 		<div class="col-3">
 	           	 		<div class="card">
-						  <img src="icone/travail1.jpg" class="card-img-top" alt="...">
+						  <img src="icone/travail3.jpg" class="card-img-top" alt="...">
 						  <div class="card-body">
 						    <h5 class="card-title">Achéteur Projet</h5>
 						    <p class="card-text">15.11.2023 TECTRA</p>
@@ -199,7 +199,7 @@
            	 		</div>
            	 		<div class="col-3">
 	           	 		<div class="card">
-						  <img src="icone/travail1.jpg" class="card-img-top" alt="...">
+						  <img src="icone/travail4.jpg" class="card-img-top" alt="...">
 						  <div class="card-body">
 						    <h5 class="card-title">Developpeur web</h5>
 						    <p class="card-text">02.10.2022 PAUL&JO</p>
